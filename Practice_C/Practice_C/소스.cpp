@@ -3,8 +3,9 @@
 
 int main(void) // main 함수가 종료될 때 정수형 값을 리턴하겠다는 뜻
 {
-	printf("Be happy!"); // Be happy! 출력
-	system("pause"); // 일시정지
+	printf("%o\n", 12); //8진수로 출력
+	printf("%x\n", 12); //16진수를 소문자로 출력
+	printf("%X\n", 12); //16진수를 대문자로 출력
 
 	return 0; // 해당 함수를 정상적으로 끝내고서 운영체제에게 기술한 값을 반환하고 현재 실행 중인 함수를 끝낸다는 뜻
 }
